@@ -1,0 +1,38 @@
+/* Write your CSS here */
+li {
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 30%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  li {
+    width: 100%;
+  }
+}
+
+.appointment-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.appointment-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #171f46;
+}
+
+.star-button {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.appointment-date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b5b7c4;
+}
